@@ -1,0 +1,19 @@
+array (sequences):
+  - hello
+  - bye 
+
+object (maps):
+  key: value
+  another: value 
+  nested object:
+    nested key: values
+  
+sequences:
+  - item 1
+  - item 2
+  - 0.5
+  - key: value 
+    another key: value
+  - - nested array item
+    - nested array item 2
+literal block:  
