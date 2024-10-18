@@ -11,4 +11,9 @@ jobs:
               run: |
                 node -v
                 npm -v
-                
+    parallel-job-ubuntu:
+        runs-on: ubuntu-latest
+        steps:
+            - name: View OS Version
+            - run: cat /etc/os-release
+
