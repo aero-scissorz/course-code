@@ -15,5 +15,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: View OS Version
-            - run: cat /etc/os-release
+              run: cat /etc/os-release
 
