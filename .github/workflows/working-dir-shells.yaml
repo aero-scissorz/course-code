@@ -17,10 +17,10 @@ jobs:
         steps:
             - name: Display
               run: |
-                pwd
-                ls -a
-                echo $GITHUB_SHA
-                echo $GITHUB-REPOSITORY
-                echo $GITHUB-WORKSPACE
+                cd
+                dir /a
+                echo %GITHUB_SHA%
+                echo %GITHUB-REPOSITORY%
+                echo %GITHUB-WORKSPACE%
 
     
