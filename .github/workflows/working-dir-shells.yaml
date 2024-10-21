@@ -8,7 +8,7 @@ jobs:
             - name: Display
               run: |
                 pwd
-                ls
+                ls -a
                 echo $GITHUB_SHA
                 echo $GITHUB-REPOSITORY
                 echo $GITHUB-WORKSPACE
@@ -18,7 +18,7 @@ jobs:
             - name: Display
               run: |
                 pwd
-                ls
+                ls -a
                 echo $GITHUB_SHA
                 echo $GITHUB-REPOSITORY
                 echo $GITHUB-WORKSPACE
