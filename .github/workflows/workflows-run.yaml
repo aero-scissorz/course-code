@@ -8,4 +8,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: echo a string
-              run: echo "Triggered because 'Repository Events' has been successfully completed."
+              run: echo "Triggered because 'Repository Events' has been successfully completed.."
