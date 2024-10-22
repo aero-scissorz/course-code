@@ -1,0 +1,12 @@
+name: Env-variable
+on: [push, pull_request, issues, workflow_dispatch]
+
+jobs:
+    env-vars-and-context:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Log ENV Var
+              run: echo $GITHUB_REF
+            - name: Log context
+              run: echo '${{ github.ref }}'
+              
