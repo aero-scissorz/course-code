@@ -1,0 +1,8 @@
+name: Vars and secrets
+on: [push, pull_request, issues, workflow_dispatch]
+
+jobs:
+    Configuration-variables:
+        runs-on: ${{ vars.JOBS_RUNNER }}
+        steps:
+            - name: 
